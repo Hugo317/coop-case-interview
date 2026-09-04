@@ -1,0 +1,242 @@
+Coop_Case_Presentation.pptx — Speaker Notes
+================================================
+
+27 slides total. The case brief gives you a 30-minute slot — that's roughly a minute per slide if
+you hit all of them, which is tight. Section dividers (slides 4, 10, 16, 22) take 10-15 seconds
+each ("just say the title and move on"). Spend your real time on the finding slides. If you're
+short on time, the safest slides to skim or cut live are: Q1's basket/timing slide (6), Q2's
+MSC/fair-trade slide (13), and Q3's category-affinity slide (20) — all solid but not load-bearing
+for the overall story.
+
+Every SEK figure in the deck is a MONTHLY run-rate (2-month sample ÷ 2), not a 2-month total —
+say "per month" out loud whenever you cite a number, it's on-brand with how the deck labels them.
+
+
+1. TITLE SLIDE
+--------------
+Just introduce yourself and the scope: 2 months of real (anonymized) Coop receipt data, 2 stores,
+April-May 2020. One line: "I looked at four things — how customers shop across channels, how
+sustainable our assortment is, what actually makes a customer valuable, and what our discount
+spend is really doing for us."
+
+
+2. AGENDA
+---------
+Read the four section titles, one sentence each. Don't over-explain here — the sections speak for
+themselves once you're in them. This slide exists so the room knows the shape of the next 25
+minutes.
+
+
+3. DATA & METHODOLOGY
+----------------------
+Say what "profit" means throughout (revenue minus cost, excl. VAT — not real net income, no
+overhead/wages/rent factored in). Flag the monthly-run-rate convention once here so you don't have
+to repeat it every slide. Then hit the caveat box: the accompanying description file claims roughly
+double our actual row/receipt counts — the file itself is complete and un-corrupted, so treat this
+as a documentation mismatch on their end, not missing data on ours. Says "we caught this and it
+doesn't change our numbers" — a credibility beat, not a confession.
+
+
+4. SECTION DIVIDER — 01 CHANNEL BEHAVIOR
+------------------------------------------
+Just read the question. "How do offline, online, and omni-channel customers shop, and what sets
+them apart."
+
+
+5. ONLINE EXISTS AT STORE A ONLY — NEVER ON WEEKENDS
+-------------------------------------------------------
+Lead with the surprise: online purchasing is exactly zero, every single weekend, across the whole
+2-month window — not a dip, zero. Verified directly against all 18 weekend dates in the data. Frame
+it as operational, not demand-driven — nothing in the data suggests customers don't want weekend
+online, just that Coop isn't offering it. This sets up the opportunity slide later.
+
+
+6. ONLINE SHOPPERS BUY MORE, AND BUY AHEAD OF MEALS
+--------------------------------------------------------
+Quick one: bigger baskets online, more items per trip — consistent with planned/bulk shopping
+rather than a quick top-up. Timing clusters around 9am and 3pm, before meals — people are
+planning ahead, not impulse-buying online. Keep this slide brief, it's supporting color for the
+bigger story.
+
+
+7. OMNI-CHANNEL HOUSEHOLDS ARE ~2.6X MORE PROFITABLE
+---------------------------------------------------------
+This is a headline slide — slow down here. Omni-channel households are worth 2.56x as much profit
+per month as everyone else, and that gap barely moves (2.59x) after controlling for buying power —
+so it's a real behavioral signal, not just "omni customers are richer." But flag the catch:
+only ~0.55% of households are omni today, and part of that low number is structural — Store B
+customers can never qualify since online doesn't exist there at all. That's the bridge into the
+next slide.
+
+
+8. SIZING THE OPPORTUNITY
+----------------------------
+Two scenarios, both clearly naive/directional — say that out loud before showing the numbers, so
+nobody in the room treats them as a forecast. Left chart: if weekends matched weekday online
+performance at Store A, roughly +415K SEK/month. Right chart: if omni-channel adoption reached 75%
+company-wide, using today's per-household profit gap, roughly +4.7M SEK/month uplift. Immediately
+follow with the caveat: today's 113 omni households are small and self-selected, this ignores
+fulfillment cost and cannibalization — treat this as "size of the prize," not a number to put in a
+budget.
+
+
+9. Q1 RECOMMENDED ACTIONS
+----------------------------
+Four asks: test weekend online at Store A (economics already work on weekdays), investigate
+extending online to Store B (closes a structural gap), build a retention play specifically for
+existing omni households (protect what's already proven valuable), and re-baseline the omni rate
+internally against Store-A-eligible households only (the raw company-wide number understates real
+adoption).
+
+
+10. SECTION DIVIDER — 02 SUSTAINABILITY
+-------------------------------------------
+Read the question and move on.
+
+
+11. BASELINE ADOPTION IS LOW — AND ONE FLAG UNDER-COUNTS IT
+------------------------------------------------------------------
+State the baseline numbers quickly (krav 6.1%, organic 3.8%, etc.), then explicitly exclude
+no_lactose from "sustainability" — it's a dietary label, not environmental, and say why that
+distinction matters. Then the real finding, framed correctly: only 34.5% of KRAV items are also
+flagged organic in the data — but KRAV certification requires meeting organic standards as a floor,
+so a KRAV item IS organic in substance either way. The takeaway isn't "KRAV and organic are
+inconsistent," it's "the organic flag alone under-counts true coverage — use organic-or-KRAV
+instead." Frame this as a data-completeness fix, not a labeling contradiction — and flag that it
+changes a downstream finding (next few slides).
+
+
+12. SUSTAINABILITY LIVES ALMOST ENTIRELY IN FRESH PRODUCE
+----------------------------------------------------------------
+Fruit, vegetables, and vegetarian lead; packaged/pantry goods are near-zero. On meat (4.1% on the
+organic flag alone), don't call it a confirmed gap on this slide — say it's worth re-checking once
+KRAV coverage is included, since that's exactly the correction the previous slide just made.
+
+
+13. MSC AND FAIR TRADE ONLY MAKE SENSE IN THEIR OWN CATEGORIES
+----------------------------------------------------------------------
+Quick methodology note: these two flags only apply to narrow slices of the catalog, so we measured
+adoption within the relevant categories, not against everything. MSC is at 66.6% within fish — right
+where you'd expect. Fair trade tops out around 2.4% even in its best categories. Keep this slide
+short.
+
+
+14. THE BIGGEST OPPORTUNITY IS SUPPLY, NOT DEMAND
+-------------------------------------------------------
+This is the actionable one, and it changed once we corrected the organic-flag issue from slide 11.
+Lead with that: cheese and frozen fish LOOKED like zero-organic gaps under the old lens, but both
+already have real KRAV coverage, so they're not actually gaps. The real remaining ones: in-store
+bread (~129K SEK/month), functional drinks (~73K), salad sides (~54K), and deli-counter meats
+(~51K) — all genuinely at zero organic-or-KRAV coverage. Land the point: customers are already
+buying heavily in these categories, so this is Coop's own assortment gap to close, not a customer
+behavior problem.
+
+
+15. Q2 RECOMMENDED ACTIONS
+------------------------------
+Close the assortment gap in the four REAL categories (bread, functional drinks, salad sides, deli
+meats) — explicitly not cheese or frozen fish. Fix the organic flag's under-tagging internally,
+since it understates Coop's real organic assortment everywhere, not just in these four categories.
+Re-check meat once KRAV is included before calling it a gap. And promote (don't fix) MSC in fish
+since adoption is already strong there.
+
+
+16. SECTION DIVIDER — 03 CUSTOMER SEGMENTATION
+----------------------------------------------------
+Read the question and move on.
+
+
+17. DEMOGRAPHIC SEGMENTS BARELY PREDICT VALUE
+----------------------------------------------------
+Set up the surprise: every MOSAIC lifestyle segment's profit share tracks its household share
+almost exactly — avg profit per household per month ranges only 179-217 SEK across all 14 segments.
+Say it plainly: MOSAIC group does not tell you who your valuable customers are.
+
+
+18. BUYING-POWER CLASS DOESN'T TRACK SPEND — AND MUCH OF IT IS UNCLASSIFIED
+------------------------------------------------------------------------------------
+The best "wait, what?" moment in the deck: low-buying-power households average MORE profit per
+month (209 SEK) than very-high-buying-power households (201 SEK). Backwards from what you'd expect.
+Then the caveat: 17.4% of households — worth ~18% of profit — have no buying-power classification
+at all, over 30x the equivalent gap in MOSAIC. Nearly 1 in 5 households isn't represented if this
+field gets used for targeting.
+
+
+19. WHAT ACTUALLY PREDICTS VALUE: PLAIN BEHAVIORAL CONCENTRATION
+------------------------------------------------------------------------
+The payoff slide for this section. Forget demographics — rank households by actual spend and the
+top 10% drive 47.9% of profit, the top 50% drive 94.1%. Half of Coop's customers contribute almost
+nothing. This is the number worth a dedicated loyalty/retention program, not another demographic
+cut.
+
+
+20. MOSAIC DOES SHOW WHAT SEGMENTS BUY — JUST NOT HOW MUCH
+------------------------------------------------------------------
+Give MOSAIC its due here so the room doesn't think you're saying "throw it away." It's a real
+signal for category preference — rural traditionalists over-index hard on tobacco, family-centered
+followers on flowers, high-spend villa households on beauty/health. Useful for assortment and
+local marketing, just not for finding your best customers.
+
+
+21. Q3 RECOMMENDED ACTIONS
+------------------------------
+Stop leading with MOSAIC/buying-power for value targeting, build a simple behavioral (RFM-style)
+segment instead, keep MOSAIC for assortment/marketing use, and go investigate the top 10% of
+households directly since demographics don't explain why they're valuable.
+
+
+22. SECTION DIVIDER — 04 DISCOUNT ECONOMICS
+------------------------------------------------
+Read the question. Frame this section as "a couple of extra things we found interesting while
+digging into the open-ended part of the brief" — it's bonus material, not a core ask, but worth the
+room's time.
+
+
+23. DISCOUNTS COST LITTLE TO OFFER — A CONVERTED CUSTOMER IS WORTH REAL MONEY
+-------------------------------------------------------------------------------------
+Two ideas on this slide, land them in order. First: the marginal cost of OFFERING a discount is
+close to zero — no fixed spend like an ad campaign, Coop only pays out when someone actually
+redeems it. Second: what's a converted customer actually worth — a household that goes from
+single-channel to omni is worth +310 SEK/month more in profit, ongoing. Then the honest caveat,
+don't skip it: our own analysis found that the simple correlation between discount usage and
+becoming omni mostly disappears once you control for how often someone shops. So this is the
+prize IF a conversion nudge works, not proof it will — which is exactly why a cheap pilot makes
+sense here: low cost to test, real upside if it works.
+
+
+24. DISCOUNT SPEND ALREADY SKEWS TOWARD LOWER-VALUE CUSTOMERS
+------------------------------------------------------------------
+Second half of the discount story. Top 10% of households drive 47.9% of profit but get only 35.0%
+of discount spend — discounts are LESS concentrated than value, not more. Right chart: discount
+intensity drops cleanly from 24.3% of revenue for the lowest-value quartile down to 7.2% for the
+highest. Land the "so what": Coop isn't wasting discount budget on customers who'd buy anyway — the
+existing pattern already looks like it's being used as an acquisition/retention tool on marginal
+customers, which is the efficient way to run it.
+
+
+25. Q4 RECOMMENDED ACTIONS
+------------------------------
+Run a controlled pilot on the cross-channel discount idea (near-zero cost, ~310 SEK/month upside if
+it converts someone), don't rebalance the discount budget toward top-tier customers since today's
+allocation already looks efficient, start tracking discount ROI by value tier instead of just in
+aggregate, and reuse the same mechanism for the Q4.3 finding — nudging low-margin-anchored loyal
+customers toward higher-margin substitutes.
+
+
+26. SYNTHESIS
+----------------
+One closing line per section, in order — this slide now maps 1:1 to the four sections, so just
+walk down it: (01) omni-channel households are worth ~2.6x more, and the biggest blocker is
+self-inflicted (no weekend online, no Store-B online); (02) the sustainability gap is supply, not
+demand — bread, functional drinks, salad sides, deli meats have no organic-or-KRAV options, and the
+organic flag itself needs fixing since it under-counts; (03) behavior beats demographics — MOSAIC
+and buying-power don't predict value, plain spend concentration does (top 10% = ~48% of profit);
+(04) discount spend is already efficient (skews toward marginal customers), and because offering
+one costs almost nothing, it's a cheap lever worth testing further.
+
+
+27. TACK! / CLOSING
+-----------------------
+Thank the room, open for questions. Nothing more needed here — if you want a strong closing line,
+something like: "The clearest theme across all of this: we don't need better demographic data, we
+need to trust the behavioral data we already have."

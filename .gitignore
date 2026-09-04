@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+__MACOSX/
+2months_v2.zip
+2months_v2/rl_2months.csv

@@ -1,0 +1,115 @@
+Q3 — Customer Segmentation: Takeaways
+========================================
+
+SUMMARY
+-------
+Neither of the two demographic segments that come with the data — MOSAIC lifestyle group and
+DominantBuyingPowerClass — actually predicts how much a household spends at Coop. Buying power is
+even counterintuitive: "low buying power" households outspend "very high buying power" households.
+The real segmentation signal is plain behavioral concentration: the top 10% of households (by
+actual spend) drive nearly half of all profit. MOSAIC group IS useful, but for a different
+purpose — it clearly shows what different segments buy, not how much.
+
+(All numbers below computed directly from the raw CSV, independent of the notebook, as a check on
+what running it should produce.)
+
+
+1. DOES MOSAIC GROUP PREDICT VALUE? — BARELY
+------------------------------------------------
+Compared each segment's share of households against its share of total profit. Every segment
+tracks almost exactly — e.g. the biggest group, B METROPOLITISKA PIONJÄRER (Metropolitan
+Pioneers), is 21.2% of households and 21.3% of profit.
+
+Avg profit per household across all 14 real segments ranges only from 357 to 433 SEK (2 months) —
+a narrow band, not a meaningful split. MOSAIC group does NOT identify Coop's most valuable
+customers.
+
+
+2. DOES BUYING-POWER CLASS PREDICT VALUE? — NO, AND IT'S COUNTERINTUITIVE
+-------------------------------------------------------------------------------
+Same test for DominantBuyingPowerClass. Range is similarly narrow (363-417 SEK), and the ordering
+doesn't even make directional sense:
+
+  LAG_KOPKRAFT (low buying power)              417 SEK avg profit/household
+  MYCKET_HOG_KOPKRAFT (very high buying power)  402 SEK avg profit/household
+
+An externally-assigned "purchasing power" label does not predict actual spend at Coop. Worth
+stating plainly: this field isn't useful for value-based targeting as-is, and may reflect a
+household's overall income rather than how much of that gets spent at Coop specifically (vs.
+competitors).
+
+
+3. WHAT ACTUALLY PREDICTS VALUE: BEHAVIORAL CONCENTRATION
+---------------------------------------------------------------
+Ranked households by actual 2-month profit and checked concentration (Lorenz-curve style):
+
+  Top 10% of households drive  47.9% of total profit
+  Top 20% of households drive  69.0%
+  Top 25% of households drive  75.8%
+  Top 50% of households drive  94.1%
+
+Half of Coop's customer base contributes almost nothing (5.9% of profit) over this window. A
+simple "heavy vs. light shopper" behavioral split captures far more than either demographic label.
+
+
+4. CATEGORY AFFINITY BY SEGMENT (the real differentiation is WHAT they buy)
+---------------------------------------------------------------------------------
+Spend-share index per segment vs. overall (100 = average, higher = over-indexed), top 6 segments
+by household count:
+
+  N GLESBYGDSTRADITIONALISTER (Rural Traditionalists)
+    TOBAK (tobacco)     index 134  <- strongest single result
+    + JUICE, FRUKT/BÄR, FISK
+
+  E FAMILJECENTRERADE EFTERFÖLJARE (Family-Centered Followers)
+    BLOMMOR (flowers)   index 118
+    TOBAK               index 116
+
+  H KÖPSTARKA EFTERSLÄNTRARE I VILLA (High-spending, detached housing)
+    SKÖNHET, HÄLSA (beauty & health)  index 111
+    Säsong (seasonal)                 index 109
+
+  B METROPOLITISKA PIONJÄRER (the largest segment, ~21% of households)
+    barely over-indexes on anything (max ~102) — consistent with being close to the "average"
+    customer simply because it IS the average, by size
+
+
+5. CHANNEL USAGE BY SEGMENT (cross-cut with Q1)
+----------------------------------------------------
+Online share of line items, by MOSAIC group — narrow range (~25-30%) among top segments:
+
+  I KÖPSTARKA EFTERSLÄNTRARE I BOSTADSRÄTT (apartment, high-spending)   30.2%
+  C MEDVETNA URBANA PIONJÄRER (Conscious Urban Pioneers)                27.6%
+
+Both plausibly urban/apartment profiles — directionally sensible (online grocery is more
+attractive without a car or storage space), but not a dramatic split.
+
+
+6. SUSTAINABILITY ADOPTION BY SEGMENT (cross-cut with Q2)
+----------------------------------------------------------------
+Organic share by MOSAIC group — also narrow (~3.9-4.4% among top segments). No segment stands out.
+Sustainability purchasing does not look like a strong demographic-segment story in this data.
+
+
+7. MISSING / UNKNOWN SEGMENT DATA
+-------------------------------------
+~0.5% of households have no usable MOSAIC label (Okänt / missing), contributing a proportional
+~0.5-0.6% of profit. Small enough not to undermine segment-based analysis overall — worth a
+one-line caveat, not a major concern.
+
+
+8. RECOMMENDED ACTIONS FOR COOP
+-----------------------------------
+1. Stop leading with MOSAIC / buying-power for value-based targeting — neither meaningfully
+   separates high- from low-value households. Build a simple behavioral (RFM-style) segment
+   instead: the top 10-20% of households by actual spend deserve a dedicated retention/loyalty
+   program, since they already drive roughly half of all profit.
+2. Use MOSAIC for assortment/marketing, not value targeting — the category-affinity indexing is
+   the genuinely useful signal (tobacco/juice for rural traditionalists, flowers/tobacco for
+   family-centered followers, beauty/health for high-spending villa households). Real basis for
+   localized assortment or targeted promotions.
+3. Investigate the top 10% of households directly — since demographic labels don't explain why
+   they're so valuable, a follow-up on WHAT they buy and HOW OFTEN would be more useful than
+   further demographic slicing.
+4. Don't assume buying-power class is a reliable proxy for Coop share-of-wallet — worth
+   investigating separately if pricing/promotion decisions currently lean on this field.

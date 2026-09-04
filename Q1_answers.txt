@@ -1,0 +1,51 @@
+1- 
+ -very very low percentage of houses are omni-channel wich seems 
+ wierd and not very good (cause only one store is omni)
+ 
+  Omni-channel households are dramatically more valuable: ~2.56x more profit per household 
+  he "customers don't mix channels" story is partly "customers can't."
+  roughly 48% of store A's weekday profit is online 
+ 
+ -online baskets are way bigger correlation between unique items
+ seems right
+ 
+ 
+ -online people shop at arround 9 in the morning and 15 in the afternoon,
+ so before meals
+ 
+    09:00
+    🏢 Work ~50% → 🏠 Home ~30% → 🚆 travelling ~8% → 🏫 education ~7% → other ~5%
+    15:00
+    🏢 Work ~48% → 🏠 Home ~35% → 🏫 education ~7% → 🚆 travelling ~5% → other ~5%
+    source SCB
+
+    where a lot of people that are in house are working so 70-75 at work 
+ 
+ - (lets assume the online channel its not working on weekends)
+ that means we are losing 35% profit from the online shoppers cause
+  they not the same
+
+  Weekday online/offline ratio (90.7%) → computed from store A only
+Weekend offline profit (914,980 SEK) → store A only
+Projected uplift (+830,094 SEK) → store A only, applied to store A's own weekend numbers
+
+
+
+ - if muitli channel spend almos 2x more we need them to spend the 2 x 
+ in coops not ahywhere else its not like the sigle channel eat less
+  
+  Omni-channel adoption	Projected total profit (2 months)
+    0.55% (today's actual rate)	8.17M SEK
+    25%	11.27M SEK -50k 
+    50%	14.44M SEK -153k
+    75%	17.61M SEK -200k
+    largely too optimistic lets ajust to theyr income and buying power
+ 
+ -so store b does not have onlie shoping options so how much
+  are we losing there?
+    
+    Naive estimate, if store B matched store A's online/offline mix:
+  +1,615,596 SEK (~66.7% uplift)
+
+
+

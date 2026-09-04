@@ -1,0 +1,33 @@
+Questions to investigate
+=========================
+
+CORE CASE QUESTIONS (from the exercise brief -- must answer)
+--------------------------------------------------------------
+1. Channel behavior: How do offline-, online- and omni-channel customers shop,
+   and what sets them apart?
+
+2. Sustainability: How and why do certain categories differ, and what actions
+   can Coop take to be more sustainable? (Hint: use the article flags)
+
+3. Customer segmentation: What's the difference between our customer groups,
+   and how should Coop act on that?
+
+4. Something else interesting (open).
+
+
+MY OWN QUESTIONS (map to the above, or new angles)
+--------------------------------------------------------------
+- Do online customers stay more away from luxury products because they
+  don't see them physically?
+  -> maps to (1) Channel behavior
+
+- Do customers with a loyalty card return more often? Do they spend more
+  per purchase?
+  -> maps to (3) Customer segmentation
+
+- After getting a discount, do customers return more?
+  -> maps to (3) Customer segmentation / could also be its own angle
+
+- When is pre-prepared food sold more? Weekday vs. weekend? Morning,
+  evening, night?
+  -> maps to (4) Something else interesting

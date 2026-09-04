@@ -1,0 +1,226 @@
+Coop_Case_Presentation.pptx — Explained in Plain Language
+================================================================
+
+This walks through every slide and explains, in simple terms, what it's actually showing and why
+it matters. No jargon. If a number says "per month," remember: we only had 2 months of real data,
+so we took the 2-month total and divided by 2 to get an average month. It's an estimate, not a
+guarantee every month looks the same.
+
+
+1. TITLE SLIDE
+--------------
+Just the cover page. Says what this is: insights from real Coop receipt data, 2 stores, 2 months
+(April-May 2020).
+
+
+2. AGENDA
+---------
+A table of contents. Four topics: how people shop (online vs in-store), how eco-friendly our
+products are, what actually makes a customer valuable, and what our discounts are really doing.
+
+
+3. DATA & METHODOLOGY
+----------------------
+Explains the ground rules. "Profit" here just means: money customers paid, minus what the product
+cost Coop — it does NOT include rent, salaries, electricity, etc., so it's bigger than Coop's real
+profit. Also flags that the description file that came with the data claims about twice as many
+rows as we actually have — we checked, our file isn't broken, the description document is just
+wrong or outdated.
+
+
+4. SECTION DIVIDER — CHANNEL BEHAVIOR
+------------------------------------------
+Just a title card. No content, just says "now we're talking about how people shop."
+
+
+5. ONLINE EXISTS AT STORE A ONLY — NEVER ON WEEKENDS
+-------------------------------------------------------
+The big finding: Coop's online shop only works at ONE of the two stores, and even there, NOBODY
+can buy online on a Saturday or Sunday — not "fewer people," literally zero, every single weekend
+in the data. This isn't customers choosing not to — the option simply isn't there on weekends.
+
+
+6. ONLINE SHOPPERS BUY MORE, AND BUY AHEAD OF MEALS
+--------------------------------------------------------
+People who shop online buy bigger carts (more stuff, more money) than people who shop in-store.
+Also, online orders happen mostly around 9am and 3pm — before breakfast/dinner — meaning people
+are planning ahead, not just grabbing something on a whim.
+
+
+7. OMNI-CHANNEL HOUSEHOLDS ARE ~2.6X MORE PROFITABLE
+---------------------------------------------------------
+"Omni-channel" = a household that shops BOTH online and in-store (not just one or the other).
+These customers are worth 2.6 times more money to Coop per month than everyone else. We double-
+checked this isn't just because they happen to be richer households — the gap holds up either way.
+The catch: almost nobody (0.55%) is currently an omni-channel customer, partly because Store B
+doesn't even offer online, so those customers can never become omni-channel no matter what they do.
+
+
+8. SIZING THE OPPORTUNITY
+----------------------------
+Two "what if" estimates, clearly labeled as rough guesses, not promises:
+- What if weekends worked online like weekdays do? Maybe +415,000 SEK extra profit per month.
+- What if 3 out of 4 customers became omni-channel (both online+in-store)? Maybe +4.7 million SEK
+  extra profit per month.
+Both numbers assume things stay simple and ignore real-world costs (like the cost of running
+weekend delivery) — think of them as "how big could this be," not a business plan.
+
+
+9. Q1 RECOMMENDED ACTIONS
+----------------------------
+What to actually do about all this: try turning on weekend online sales at Store A, look into
+bringing online shopping to Store B too, take extra good care of the customers who already shop
+both ways (they're valuable, don't lose them), and when talking about "how many customers are
+omni-channel," only count people who actually had the option — otherwise the number looks
+artificially low.
+
+
+10. SECTION DIVIDER — SUSTAINABILITY
+-------------------------------------------
+Title card. Now we're talking about eco-friendly/organic products.
+
+
+11. BASELINE ADOPTION IS LOW — AND ONE FLAG UNDER-COUNTS IT
+------------------------------------------------------------------
+Only a small slice of what Coop sells is labeled organic, eco, or similar (roughly 4-6% of
+purchases). We also looked into something that seemed like a contradiction: only about a third of
+products with the "KRAV" organic certification are ALSO separately labeled "organic" in the data.
+Turns out this isn't really a mistake — KRAV certification actually REQUIRES a product to already
+meet organic standards (KRAV is stricter, built on top of organic rules). So a KRAV product IS
+organic, whether or not someone also ticked a separate "organic" box for it in the system. The real
+lesson: Coop's "organic" label alone undercounts how much of the assortment is actually
+organic-equivalent — count KRAV products as organic too, and fix the tagging so this doesn't keep
+happening.
+
+
+12. SUSTAINABILITY LIVES ALMOST ENTIRELY IN FRESH PRODUCE
+----------------------------------------------------------------
+Fruits, vegetables, and vegetarian foods have the most organic options. Packaged/processed foods
+have almost none. Meat looked low too (4.1%), but given what we just found about KRAV, that needs
+a second look before calling it a real gap.
+
+
+13. MSC AND FAIR TRADE ONLY MAKE SENSE IN THEIR OWN CATEGORIES
+----------------------------------------------------------------------
+Quick technical note: "MSC" (sustainable fishing label) only applies to fish, and "Fair Trade"
+mostly applies to things like coffee and chocolate. Within fish specifically, sustainable
+labeling is actually pretty common (66%) — that part's working well already.
+
+
+14. THE BIGGEST OPPORTUNITY IS SUPPLY, NOT DEMAND
+-------------------------------------------------------
+This slide got corrected once we accounted for the KRAV finding from slide 11. Cheese and frozen
+fish LOOKED like they had zero organic options — but once you count KRAV products as organic too,
+they actually already have some. The real gaps (still genuinely zero, even counting KRAV) are:
+in-store bakery bread, functional/energy drinks, salad sides, and deli-counter meats — all
+popular, all with no organic-equivalent option at all. This isn't customers refusing to buy
+organic — Coop simply isn't offering the choice in these specific categories yet.
+
+
+15. Q2 RECOMMENDED ACTIONS
+------------------------------
+Add organic options to the 4 REAL gap categories (bread, functional drinks, salad sides, deli
+meats) — not cheese or frozen fish, which already have organic-equivalent options via KRAV. Fix
+the "organic" label so it also counts KRAV products, since right now it's undercounting Coop's
+real organic assortment everywhere, not just in these 4 spots. Double check meat once KRAV is
+counted in. And since sustainable fish is already doing well, just advertise it more rather than
+trying to "fix" it.
+
+
+16. SECTION DIVIDER — CUSTOMER SEGMENTATION
+----------------------------------------------------
+Title card. Now: what actually makes some customers more valuable than others?
+
+
+17. DEMOGRAPHIC SEGMENTS BARELY PREDICT VALUE
+----------------------------------------------------
+Coop has "customer type" labels bought from an outside company (like "Metropolitan Pioneers" or
+"Rural Traditionalists") based on where people live and their lifestyle. Turns out these labels
+barely tell you anything about how much money a customer actually brings in — all the groups
+spend roughly the same amount per month. These labels are not a good way to find your best
+customers.
+
+
+18. BUYING-POWER CLASS DOESN'T TRACK SPEND — AND MUCH OF IT IS UNCLASSIFIED
+------------------------------------------------------------------------------------
+Even weirder: households labeled "low income" actually spend slightly MORE at Coop per month than
+households labeled "very high income." The label meant to predict wealth doesn't even predict
+spending in the right direction. On top of that, nearly 1 in 5 households don't have this label at
+all (marked "unknown") — so it's missing a lot of people too.
+
+
+19. WHAT ACTUALLY PREDICTS VALUE: PLAIN BEHAVIORAL CONCENTRATION
+------------------------------------------------------------------------
+This is the real answer to "who are our best customers": just look at who actually spends the
+most. The top 10% of customers (by actual spending) bring in almost half (47.9%) of all profit.
+The top half of customers bring in 94% of profit — meaning the bottom half barely matters
+financially. Forget fancy labels — just track who's actually spending.
+
+
+20. MOSAIC DOES SHOW WHAT SEGMENTS BUY — JUST NOT HOW MUCH
+------------------------------------------------------------------
+To be fair to those "customer type" labels: they ARE useful for something — predicting WHAT
+people buy, even if not HOW MUCH they spend. E.g., rural households buy a lot more tobacco than
+average, family-oriented households buy a lot more flowers. Good for deciding what to stock or
+advertise locally, just not good for finding your top spenders.
+
+
+21. Q3 RECOMMENDED ACTIONS
+------------------------------
+Stop using those outside "customer type" labels to guess who your best customers are — use actual
+spending data instead. Build a simple system that just tracks who spends the most and treat them
+well. Still use the customer-type labels for deciding what products to stock where. And go study
+that top 10% of spenders directly to understand what makes them special.
+
+
+22. SECTION DIVIDER — DISCOUNT ECONOMICS
+------------------------------------------------
+Title card. This is bonus material (not one of the three main questions) — extra things we found
+interesting about how discounts work.
+
+
+23. DISCOUNTS COST LITTLE TO OFFER — A CONVERTED CUSTOMER IS WORTH REAL MONEY
+-------------------------------------------------------------------------------------
+Two ideas here. First: offering a discount barely costs Coop anything upfront — unlike running an
+ad campaign (which costs money whether it works or not), a discount only "costs" something when a
+customer actually uses it. Second: if you could turn a single-channel customer (only online OR
+only in-store) into an omni-channel customer (both), that's worth about +310 SEK extra profit per
+month, every month, going forward. BUT — important honesty check — we also found that just giving
+people more discounts doesn't reliably make them switch channels on its own, based on the data we
+have. So this is "here's the prize if it works," not "discounts definitely cause this." Worth
+actually testing with a small experiment since it's so cheap to try.
+
+
+24. DISCOUNT SPEND ALREADY SKEWS TOWARD LOWER-VALUE CUSTOMERS
+------------------------------------------------------------------
+Good news buried in the numbers: Coop isn't wasting its discount budget on customers who'd shop
+there anyway. The biggest spenders (top 10%) get a smaller slice of discounts (35%) than their
+slice of profit (47.9%) — meaning discounts are already going more toward the customers who need
+a nudge, not the loyal ones who don't. That's actually efficient.
+
+
+25. Q4 RECOMMENDED ACTIONS
+------------------------------
+Try a small test: offer a special discount to single-channel customers specifically to get them to
+try the other channel, and compare results against customers who didn't get the offer. Don't shift
+discount money toward big spenders — the current setup already looks smart. Start tracking how well
+discounts work for different customer groups instead of just overall. And use this same cheap-discount
+idea to nudge loyal customers who buy low-profit items toward higher-profit alternatives.
+
+
+26. SYNTHESIS (SUMMARY OF EVERYTHING)
+------------------------------------------
+One big takeaway per topic:
+- Shopping channels: customers who use both online and in-store are much more valuable, but Coop
+  itself is blocking growth here (no weekend online, no online at Store B).
+- Sustainability: the problem is Coop not offering organic options in certain categories, not
+  customers refusing to buy them.
+- Customer types: fancy outside "customer profile" labels don't predict who's valuable — actual
+  spending does.
+- Discounts: they're already being used efficiently, and because they're so cheap to offer, they're
+  worth testing further as a tool (like nudging people to try online shopping).
+
+
+27. TACK! / CLOSING
+-----------------------
+Swedish for "Thanks!" — the final slide, just says thank you and opens the floor for questions.

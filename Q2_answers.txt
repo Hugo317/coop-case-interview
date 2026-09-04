@@ -1,0 +1,130 @@
+Q2 — Sustainability: Takeaways
+================================
+
+SUMMARY
+-------
+Sustainability adoption is low overall (organic ~3.8%, krav ~6.1% of line items) and concentrated
+almost entirely in fresh produce and dairy — packaged/processed goods have essentially none. KRAV
+certification requires meeting organic standards as a floor, so a KRAV item is organic in substance
+even where the separate "organic" flag wasn't also set — using organic alone therefore UNDERSTATES
+true coverage. Correcting for that changes the "biggest opportunity" finding: cheese and frozen fish
+(originally flagged as zero-organic gaps) actually already have real KRAV coverage. The genuine
+remaining supply gaps are in-store bread, functional drinks, salad sides, and deli-counter meats.
+
+(All numbers below computed directly from the raw CSV, independent of the notebook, as a check on
+what running it should produce.)
+
+
+1. BASELINE ADOPTION RATES
+---------------------------
+Share of all 1.6M line items carrying each flag:
+  krav        6.10%
+  eko         5.53%
+  organic     3.77%
+  msc         1.72%
+  fair_trade  0.31%
+  no_lactose  22.74%  (NOT a sustainability flag — it's a dietary/allergen label, kept separate)
+
+
+2. DOES KRAV IMPLY ORGANIC? — YES IN SUBSTANCE, BUT THE DATA FLAG UNDER-TAGS IT
+--------------------------------------------------------------------------------
+Only 34.5% of KRAV-flagged items are also flagged organic in the data — but this is a data
+under-tagging issue, not a real gap in the products themselves. KRAV is a Swedish label built ON
+TOP of the EU organic standard (a product must already meet organic requirements, plus extra
+criteria on animal welfare, climate impact, etc., to earn KRAV). So a KRAV-certified product IS
+organic by definition, regardless of whether someone also ticked the separate "organic" checkbox
+in this dataset.
+-> Practical takeaway: treat "organic OR krav" as the real organic-equivalent footprint, not
+   "organic" alone. This isn't just a labeling nuance — it changes which categories actually have
+   a genuine organic supply gap (see section 6).
+-> Still worth flagging internally: the "organic" flag itself needs fixing so it doesn't quietly
+   understate Coop's real organic assortment everywhere it's used.
+
+
+3. CATEGORY PATTERNS (why some categories differ)
+--------------------------------------------------
+Top organic categories are all fresh/perishable:
+  FRUKT, BÄR (fruit & berries)   18.6% organic
+  GRÖNSAKER (vegetables)         11.5%
+  VEGETARISKT (vegetarian)       10.5%
+  MEJERI, ÄGG (dairy & eggs)      4.7%
+
+Makes sense — organic certification is easiest/most established for raw produce and dairy.
+
+KÖTT (meat) sits at only 4.1% on the organic flag alone — worth re-checking with the organic-or-krav
+lens before concluding it's a real gap, given what we now know about under-tagging.
+
+Bottom end: ÖVRIG KOLONIAL (misc. packaged/pantry goods) sits at 0% organic — packaged/processed
+goods essentially have no organic presence in the assortment.
+
+
+4. DATA QUALITY NOTE
+----------------------
+Four categories show up as blank/NaN for every sustainability flag instead of 0%: Non Sale Admin,
+Non Sale Vardags&Finansiella Tjänst, Restaurang, Frukt Grönt & Blommor. Checked directly — these
+are non-product line items (fees, deposits, financial services, gift cards; ~133,411 rows total,
+consistent across all five flag columns). A sustainability flag genuinely doesn't apply to them.
+Correct to exclude these from any "share of assortment" calculation rather than treating them as 0%.
+
+
+5. FAIR_TRADE / MSC — SCOPED TO WHERE THEY ACTUALLY APPLY
+-------------------------------------------------------------
+These two flags only make sense in specific categories, so adoption is measured within those
+categories, not against the whole dataset:
+
+  msc (sustainable seafood):
+    FISK (fish)        66.6%  <- exactly where you'd expect it
+    Djupfryst (frozen)  10.6%
+
+  fair_trade (peaks much lower even in its best categories):
+    FRUKT, BÄR           2.4%
+    VEGETARISKT          2.4%
+  Consistent with fair_trade realistically applying only to a narrow slice (bananas, coffee,
+  chocolate) even within a broad category.
+
+
+6. BIGGEST OPPORTUNITY CATEGORIES — REVISED using organic-OR-krav
+------------------------------------------------------------------------
+This is a real correction, not a cosmetic one. Under "organic" alone, cheese and frozen fish looked
+like zero-coverage gaps — but both already have real KRAV coverage:
+  OST (cheese)                    2.6% krav coverage  -> NOT actually a gap
+  FRYST FISK & SKA (frozen fish)  9.4% krav coverage  -> NOT actually a gap
+  FLINGOR (cereal)                7.6% krav coverage  -> NOT actually a gap
+
+The genuine remaining gaps, among edible food/beverage categories only (non-food categories like
+tissue paper, pet supplies, and cleaning products excluded — "organic" isn't a meaningful
+expectation there even though they also show 0%):
+  BUTIKSBAKATBRÖD& (in-store bread)      ~257K SEK revenue / 2mo, 0% organic-or-krav
+  FUNKTIONSDRYCKER (functional drinks)   ~146K SEK,             0%
+  TILLBEHÖRSSALLAD (salad sides)         ~108K SEK,             0%
+  MANUELL CHARK (deli-counter meats)     ~102K SEK,             0%
+
+In-store bread is the strongest, most standard case (organic bread is a common category
+elsewhere) — this is a real supply-side gap, not a demand problem.
+
+
+7. PRICE PREMIUM FOR ORGANIC
+-------------------------------
+Only 3 categories had enough organic volume to compare (median price/unit, organic vs. non-organic,
+same category — this section still uses "organic" alone, not organic-or-krav; worth re-running
+with the combined flag if this question becomes a priority):
+  GRÖNSAKER (vegetables)   +15.0% premium
+  VEGETARISKT               0.0% (priced the same)
+  FRUKT, BÄR (fruit)       -11.1% (organic priced BELOW non-organic — counterintuitive)
+
+The fruit result is worth double-checking against a product-mix effect (e.g. organic assortment
+skewing toward cheaper varieties) before claiming "organic doesn't cost more" — only 3 categories
+qualified, so don't over-generalize this.
+
+
+8. RECOMMENDED ACTIONS FOR COOP
+----------------------------------
+1. Close the assortment gap in the REAL zero-coverage categories — in-store bread, functional
+   drinks, salad sides, deli-counter meats — not cheese or frozen fish, which already have KRAV
+   coverage the organic flag alone missed.
+2. Fix the "organic" flag's under-tagging for KRAV items internally — a data-completeness issue
+   that quietly understates Coop's true organic-equivalent assortment everywhere, not just here.
+3. Investigate whether meat still under-indexes once KRAV coverage is accounted for, before
+   treating it as a confirmed gap.
+4. MSC is already well-adopted in fish (66.6%) — promote it, don't fix it. The assortment exists;
+   this is a visibility/marketing opportunity, not a supply gap.
